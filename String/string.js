@@ -68,7 +68,7 @@ console.log(obj, JSON.stringify(obj));
 const objk = JSON.stringify(obj);
 console.log(objk, JSON.parse(objk));
 
-//concat two string
+//concat or join two string
 const lastName = " kumar";
 console.log(firstName + lastName + " best");
 console.log(firstName.concat(lastName, " is a", " best"));
